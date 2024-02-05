@@ -25,29 +25,29 @@ export const Skills = () => {
 
                 </div>
 
-                <div className="w-full  grid grid-cols-2 xl:grid-cols-6 sm:grid-cols-3 gap-4 text-center py-8" >
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                <div className="w-full  grid grid-cols-2 xl:grid-cols-6 sm:grid-cols-3 gap-4 text-center py-8 shadow-md shadow-[#19ddd6] " >
+                    <div className=" hover:scale-110 duration-500" >
                         <img className="w-20 mx-auto" src={HTML} alt="" />
                         <p className="my-4" >HTML</p>
                     </div>
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                    <div className=" hover:scale-110 duration-500" >
 
                         <img className="w-20 mx-auto" src={CSS} alt="" />
                         <p className="my-4" >CSS</p>
                     </div>
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                    <div className=" hover:scale-110 duration-500" >
                         <img className="w-20 mx-auto" src={JS} alt="" />
                         <p className="my-4" >JS</p>
                     </div>
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                    <div className=" hover:scale-110 duration-500" >
                         <img className="w-20 mx-auto" src={GITHUB} alt="" />
                         <p className="my-4" >GIT HUB</p>
                     </div>
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                    <div className=" hover:scale-110 duration-500" >
                         <img className="w-20 mx-auto" src={TAILWIND} alt="" />
                         <p className="my-4" >TAILWIND</p>
                     </div>
-                    <div className="shadow-md shadow-[#19ddd6] hover:scale-110 duration-500" >
+                    <div className=" hover:scale-110 duration-500" >
                         <img className="w-20 mx-auto" src={NODE} alt="" />
                         <p className="my-4" >NODE</p>
                     </div>

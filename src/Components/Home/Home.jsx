@@ -1,4 +1,4 @@
-import JBPIC from "../../assets/Front/Jonathan.jpg";
+import JBPIC from "../../assets/Front/JB.png";
 import { FaLongArrowAltRight, FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -7,7 +7,7 @@ export const Home = () => {
         <div className="h-[750px] mx-auto w-1/2 mt-52" name="home" >
             <div className="flex gap-20 items-center">
                 <div className="hidden xl:flex">
-                    <img className="rounded-[50%]" src={JBPIC} alt="" />
+                    <img src={JBPIC} alt="" />
                 </div>
                 <div className="flex flex-col gap-4">
                     <h1 className="text-white text-5xl">
