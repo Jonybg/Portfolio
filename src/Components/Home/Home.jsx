@@ -21,7 +21,7 @@ export const Home = () => {
                     </p>
                     <div>
                         <Link to="contact" smooth={true} duration={800} >
-                            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#19ddd6] hover:border-[#19ddd6]">
+                            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#19ddd6] hover:border-[#19ddd6] hover:text-black ">
                                 Contact me
                                 <span className="group-hover:rotate-90 duration-300">
                                     <FaLongArrowAltRight className="ml-3" />
