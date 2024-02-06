@@ -25,44 +25,47 @@ export const NavBar = () => {
 
         <>
             <div className="bg-black h-[80px] flex  justify-around items-center fixed top-0 w-full ">
-                <div className="m-4">
 
-                    <img className="h-[30px] cursor-pointer hover:scale-110 duration-100" src={Logo} alt="Logo" />
+                <div className="m-4 ">
+                    <Link to="home" smooth={true} duration={500} offset={-220}>
+                        <img className="h-[30px] cursor-pointer hover:scale-110 duration-100" src={Logo} alt="Logo" />
+                    </Link>
+
 
                 </div>
                 <div className=" flex justify-between gap-10 m-4">
 
-                    <ul className={`text-white xl:flex  gap-5 nav-list cursor-pointer  ${menu ? "flex" : "hidden"} `} >
+                    <ul className={`text-white sm:flex gap-5 nav-list cursor-pointer  ${menu ? "flex" : "hidden"} `} >
                         <li>
-                            <Link to="home" smooth={true} duration={500} >
+                            <Link to="home" smooth={true} duration={500} offset={-220} >
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="about" smooth={true} duration={500} >
+                            <Link to="about" smooth={true} duration={500} offset={-220} >
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to="skills" smooth={true} duration={500} >
+                            <Link to="skills" smooth={true} duration={500} offset={-220}  >
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link to="projects" smooth={true} duration={500} >
+                            <Link to="projects" smooth={true} duration={500} offset={-220}  >
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link to="contact" smooth={true} duration={500} >
+                            <Link to="contact" smooth={true} duration={500} offset={-100}  >
                                 Contact
                             </Link>
                         </li>
 
 
                     </ul>
-                    <div className="text-white cursor-pointer">
-                        <IoMenu className="xl:hidden" onClick={togglemenu} style={{ fontSize: "1.5rem" }} />
+                    <div className="text-white cursor-pointer  ">
+                        <IoMenu className="sm:hidden" onClick={togglemenu} style={{ fontSize: "1.5rem" }} />
                     </div>
 
                 </div>
