@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoPersonOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
+import 'animate.css';
 
 export const NavBar = () => {
 
@@ -34,6 +35,7 @@ export const NavBar = () => {
 
                 </div>
                 <div className=" flex justify-between gap-10 m-4">
+
 
                     <ul className={`text-white sm:flex gap-5 nav-list cursor-pointer  ${menu ? "flex" : "hidden"} `} >
                         <li>
@@ -64,8 +66,9 @@ export const NavBar = () => {
 
 
                     </ul>
+
                     <div className="text-white cursor-pointer  ">
-                        <IoMenu className="sm:hidden" onClick={togglemenu} style={{ fontSize: "1.5rem" }} />
+                        <IoMenu className="sm:hidden " onClick={togglemenu} style={{ fontSize: "1.5rem" }} />
                     </div>
 
                 </div>

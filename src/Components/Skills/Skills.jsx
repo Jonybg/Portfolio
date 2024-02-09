@@ -25,7 +25,7 @@ export const Skills = () => {
 
                 </div>
 
-                <div className="w-full  grid grid-cols-2 xl:grid-cols-6 sm:grid-cols-3 gap-4 text-center py-8 shadow-md shadow-[#19ddd6] " >
+                <div className="w-full  grid grid-cols-2 xl:grid-cols-7 sm:grid-cols-3 gap-4 text-center py-8 shadow-md shadow-[#19ddd6] " >
                     <div className=" hover:scale-110 duration-500" >
                         <img className="w-6 mx-auto" src={HTML} alt="" />
                         <p className="my-4" >HTML</p>
@@ -38,6 +38,10 @@ export const Skills = () => {
                     <div className=" hover:scale-110 duration-500" >
                         <img className="w-6 mx-auto" src={JS} alt="" />
                         <p className="my-4" >JS</p>
+                    </div>
+                    <div className=" hover:scale-110 duration-500" >
+                        <img className="w-6 mx-auto" src={REACT} alt="" />
+                        <p className="my-4" >REACT</p>
                     </div>
                     <div className=" hover:scale-110 duration-500" >
                         <img className="w-8 mx-auto" src={GITHUB} alt="" />

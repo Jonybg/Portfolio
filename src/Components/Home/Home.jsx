@@ -2,6 +2,7 @@ import JBPIC from "../../assets/Front/JB.png";
 import { FaLongArrowAltRight, FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-scroll";
 
+
 export const Home = () => {
     return (
         <div className="h-[750px] mx-auto w-1/2 mt-52" name="home" >
