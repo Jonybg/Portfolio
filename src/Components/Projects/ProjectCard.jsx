@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
-export const ProjectCard = ({ title, image, githubLink }) => {
+export const ProjectCard = ({ title, image, githubLink, vercelLink }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
@@ -12,11 +13,14 @@ export const ProjectCard = ({ title, image, githubLink }) => {
         >
             <h2 className="p-3">{title}</h2>
             <div className="relative">
-                <img className={`mx-auto h-auto w-full rounded-sm p-2 ${isHovered ? 'opacity-10' : 'opacity-100'}`} src={image} alt={title} />
+                <img className={`mx-auto h-4/4 w-full rounded-sm p-2 ${isHovered ? 'opacity-10' : 'opacity-100'}`} src={image} alt={title} />
                 {isHovered && (
-                    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                    <div className="absolute top-0 left-0 w-full h-full gap-10 flex justify-center items-center">
                         <a className="flex gap-1" href={githubLink}>
                             <FaGithub size={50} className="text-white" />
+                        </a>
+                        <a className="flex gap-1" href={vercelLink}>
+                            <FiExternalLink size={50} className="text-white" />
                         </a>
                     </div>
                 )}

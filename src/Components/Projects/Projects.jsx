@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RickAndMorty from "../../assets/Projects/RickAndMorty.png";
 import MoviesAPP from "../../assets/Projects/MoviesAPP.png";
+import FakeStore from "../../assets/Projects/FakeStore.png"
 import { ProjectCard } from "./ProjectCard"
 
 export const Projects = () => {
@@ -13,15 +14,24 @@ export const Projects = () => {
                 </div>
             </div>
             <div className="w-[50%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-4 text-center py-8">
+
+                <ProjectCard
+                    title="Fake Store"
+                    image={FakeStore}
+                    githubLink="https://github.com/Jonybg/FakeStore"
+                    vercelLink="https://fake-store-five-peach.vercel.app/"
+                />
                 <ProjectCard
                     title="RickandMorty APP"
                     image={RickAndMorty}
                     githubLink="https://github.com/Jonybg/RickAndMortyAPP"
+                    vercelLink="https://rick-and-morty-app-two-blue.vercel.app/"
                 />
                 <ProjectCard
                     title="Movies APP"
                     image={MoviesAPP}
                     githubLink="https://github.com/Jonybg/MoviesAPP"
+                    vercelLink="https://movies-app-rose-rho.vercel.app/"
                 />
             </div>
         </div>
