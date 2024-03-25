@@ -14,6 +14,16 @@ body {
 
 }
 
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blinking-cursor {
+    animation: blink 1s step-start infinite;
+}
+
 
 
 @media (max-width: 640px) {
@@ -33,6 +43,7 @@ body {
         gap: 25px;
         z-index: 2;
         transition: 0.4s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 
     }
