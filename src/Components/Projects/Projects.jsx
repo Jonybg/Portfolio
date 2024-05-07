@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import RickAndMorty from "../../assets/Projects/RickAndMorty.png";
 import MoviesAPP from "../../assets/Projects/MoviesAPP.png";
 import FakeStore from "../../assets/Projects/FakeStore.png"
+import Galaxy from "../../assets/Projects/Galaxy.png"
 import { ProjectCard } from "./ProjectCard"
 
 export const Projects = () => {
@@ -21,6 +22,13 @@ export const Projects = () => {
                     githubLink="https://github.com/Jonybg/FakeStore"
                     vercelLink="https://fake-store-five-peach.vercel.app/"
                 />
+                <ProjectCard
+                    title="Galaxy Gif"
+                    image={Galaxy}
+                    githubLink="https://github.com/Jonybg/FakeStore"
+                    vercelLink="https://fake-store-five-peach.vercel.app/"
+                />
+
                 <ProjectCard
                     title="RickandMorty APP"
                     image={RickAndMorty}
