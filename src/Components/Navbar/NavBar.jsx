@@ -80,7 +80,7 @@ export const NavBar = () => {
                 <ul className="flex flex-col gap-1" >
                     <li className=" p-1 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#19ddd6] "
                     >
-                        <a className=" flex justify-between items-center w-full text-black-300" href="https://github.com/jonathanbello123">
+                        <a className=" flex justify-between items-center w-full text-black-300" href="https://github.com/Jonybg">
                             GitHub <FaGithub className="m-3" size={30} />
                         </a>
                     </li>
