@@ -13,7 +13,7 @@ export const ProjectCard = ({ title, image, githubLink, vercelLink }) => {
         >
             <h2 className="p-3">{title}</h2>
             <div>
-                <img className={`mx-auto  h-[300px] w-full rounded-sm p-2 ${isHovered ? 'opacity-10' : 'opacity-100'}`} src={image} alt={title} />
+                <img className={`mx-auto object-contain md:object-cover  h-[300px] w-full rounded-sm p-2 ${isHovered ? 'opacity-10' : 'opacity-100'}`} src={image} alt={title} />
                 {isHovered && (
                     <div className="absolute top-0 left-0 w-full h-full gap-10 flex justify-center items-center">
                         <a className="flex gap-1" href={githubLink}>

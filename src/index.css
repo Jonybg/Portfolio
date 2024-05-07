@@ -21,7 +21,7 @@ body {
 }
 
 .blinking-cursor {
-    animation: blink 1s step-start infinite;
+    animation: blink 1s step-start;
 }
 
 
@@ -41,7 +41,7 @@ body {
         align-items: center;
         padding: 45px 30px;
         gap: 25px;
-        z-index: 2;
+        z-index: 2000000;
         transition: 0.4s;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
