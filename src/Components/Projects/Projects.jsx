@@ -25,8 +25,8 @@ export const Projects = () => {
                 <ProjectCard
                     title="Galaxy Gif"
                     image={Galaxy}
-                    githubLink="https://github.com/Jonybg/FakeStore"
-                    vercelLink="https://fake-store-five-peach.vercel.app/"
+                    githubLink="https://github.com/Jonybg/GIF-GALAXY"
+                    vercelLink="https://gif-galaxy-tau.vercel.app/"
                 />
 
                 <ProjectCard
