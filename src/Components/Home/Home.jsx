@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import JBPIC from "../../assets/Front/JB.png";
 import { FaLongArrowAltRight, FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { IoPersonOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
 
 export const Home = () => {
@@ -56,7 +60,18 @@ export const Home = () => {
                     </div>
                     <div className="text-white">
                         <h2 className="text-2xl font-bold mb-2">Connect with me</h2>
-                        <div className="flex gap-4">
+                        <div className="flex  gap-4">
+                            <a className="xl:hidden flex " href="https://github.com/Jonybg" target="_blank" rel="noopener noreferrer">
+                                <FaGithub className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                            </a>
+                            <a className="xl:hidden flex " href="https://www.linkedin.com/in/jonathan-bello-1427a9223/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                            </a>
+                            <a className="xl:hidden flex " href="mailto:jonathanbellogabriel@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <MdEmail className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                            </a>
+
+
                             <a href="https://twitter.com/Jonybello1" target="_blank" rel="noopener noreferrer">
                                 <FaTwitter className="text-white hover:text-[#19ddd6] w-6 h-6" />
                             </a>
@@ -69,6 +84,8 @@ export const Home = () => {
                             <a href="https://wa.me/1157745108" target="_blank" rel="noopener noreferrer">
                                 <FaWhatsapp className="text-white hover:text-[#19ddd6] w-6 h-6" />
                             </a>
+
+
                         </div>
                     </div>
                 </div>

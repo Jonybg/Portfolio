@@ -96,12 +96,7 @@ export const NavBar = () => {
                             Email <MdEmail className="m-3" size={30} />
                         </a>
                     </li>
-                    <li className=" p-1 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#19ddd6] "
-                    >
-                        <a className="flex justify-between items-center w-full text-black-300" href="">
-                            Resume <IoPersonOutline className="m-3" size={30} />
-                        </a>
-                    </li>
+
 
                 </ul>
 
