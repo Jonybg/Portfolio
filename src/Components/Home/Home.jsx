@@ -61,29 +61,35 @@ export const Home = () => {
                     <div className="text-white">
                         <h2 className="text-2xl font-bold mb-2">Connect with me</h2>
                         <div className="flex  gap-4">
-                            <a className="xl:hidden flex " href="https://github.com/Jonybg" target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
-                            <a className="xl:hidden flex " href="https://www.linkedin.com/in/jonathan-bello-1427a9223/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
-                            <a className="xl:hidden flex " href="mailto:jonathanbellogabriel@gmail.com" target="_blank" rel="noopener noreferrer">
-                                <MdEmail className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
+                            <div className="grid grid-cols-4 gap-4">
+
+                                <a className="xl:hidden flex " href="https://github.com/Jonybg" target="_blank" rel="noopener noreferrer">
+                                    <FaGithub className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+                                <a className="xl:hidden flex " href="https://www.linkedin.com/in/jonathan-bello-1427a9223/" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+                                <a className="xl:hidden flex " href="mailto:jonathanbellogabriel@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <MdEmail className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
 
 
-                            <a href="https://twitter.com/Jonybello1" target="_blank" rel="noopener noreferrer">
-                                <FaTwitter className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
-                            <a href="https://www.facebook.com/cranckk" target="_blank" rel="noopener noreferrer">
-                                <FaFacebook className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
-                            <a href="https://www.instagram.com/jony_bello" target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
-                            <a href="https://wa.me/1157745108" target="_blank" rel="noopener noreferrer">
-                                <FaWhatsapp className="text-white hover:text-[#19ddd6] w-6 h-6" />
-                            </a>
+                                <a href="https://twitter.com/Jonybello1" target="_blank" rel="noopener noreferrer">
+                                    <FaTwitter className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+                                <a href="https://www.facebook.com/cranckk" target="_blank" rel="noopener noreferrer">
+                                    <FaFacebook className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+                                <a href="https://www.instagram.com/jony_bello" target="_blank" rel="noopener noreferrer">
+                                    <FaInstagram className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+                                <a href="https://wa.me/1157745108" target="_blank" rel="noopener noreferrer">
+                                    <FaWhatsapp className="text-white hover:text-[#19ddd6] w-6 h-6" />
+                                </a>
+
+
+                            </div>
+
 
 
                         </div>
